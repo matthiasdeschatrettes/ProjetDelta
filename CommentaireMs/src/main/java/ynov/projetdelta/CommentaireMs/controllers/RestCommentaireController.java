@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import ynov.projetdelta.CommentaireMs.dto.CommentR;
+import ynov.projetdelta.CommentaireMs.model.Commentaire;
+import ynov.projetdelta.CommentaireMs.model.User;
+import ynov.projetdelta.CommentaireMs.repositories.CommentaireRepository;
+import ynov.projetdelta.CommentaireMs.repositories.UserProxy;
 import ynov.projetdelta.CommentaireMs.service.CommentaireService;
 
 @RestController

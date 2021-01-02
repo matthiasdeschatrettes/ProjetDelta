@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @ConfigurationProperties(prefix = "ynov.projetdelta")
 public class CustomProperties {
 
-private String apiUrl;
+	private String apiUrl;
 	
 	public String getApiUrl() {
 		return apiUrl;

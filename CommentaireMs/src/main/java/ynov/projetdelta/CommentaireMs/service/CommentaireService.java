@@ -28,8 +28,10 @@ public class CommentaireService {
 	}
 	
 	public Iterable<CommentR> getCommentaires() {
+		
 		Iterable<Commentaire> commentaires = commentaireRepository.findAll();
 		ArrayList<CommentR> commentRs = new ArrayList<CommentR>();
+		
 		Iterator<Commentaire> iterator = commentaires.iterator();
 		while(iterator.hasNext()) {
 			Commentaire c = iterator.next();
