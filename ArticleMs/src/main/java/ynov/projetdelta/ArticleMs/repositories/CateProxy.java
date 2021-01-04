@@ -8,8 +8,10 @@ import org.springframework.web.client.RestTemplate;
 
 import ynov.projetdelta.ArticleMs.config.CustomProperties;
 import ynov.projetdelta.ArticleMs.model.Cate;
+
 @Repository
 public class CateProxy {
+	
 	@Autowired
 	public RestTemplate restTemplate;
 	

@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import ynov.projetdelta.ArticleMs.dto.ArtR;
+import ynov.projetdelta.ArticleMs.model.Article;
+import ynov.projetdelta.ArticleMs.model.User;
+import ynov.projetdelta.ArticleMs.repositories.ArticleRepository;
+import ynov.projetdelta.ArticleMs.repositories.UserProxy;
 import ynov.projetdelta.ArticleMs.service.ArticleService;
 
 @RestController

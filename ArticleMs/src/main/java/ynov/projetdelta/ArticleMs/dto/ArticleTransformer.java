@@ -1,6 +1,7 @@
 package ynov.projetdelta.ArticleMs.dto;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import ynov.projetdelta.ArticleMs.model.Article;
 import ynov.projetdelta.ArticleMs.model.Cate;
@@ -10,6 +11,7 @@ import ynov.projetdelta.ArticleMs.repositories.CateProxy;
 import ynov.projetdelta.ArticleMs.repositories.ComProxy;
 import ynov.projetdelta.ArticleMs.repositories.UserProxy;
 
+@Component
 public class ArticleTransformer {
 	
 	@Autowired

@@ -1,0 +1,14 @@
+ynov\projetdelta\ArticleMs\config\CustomProperties.class
+ynov\projetdelta\ArticleMs\model\Article.class
+ynov\projetdelta\ArticleMs\dto\ArtR.class
+ynov\projetdelta\ArticleMs\repositories\UserProxy.class
+ynov\projetdelta\ArticleMs\model\Cate.class
+ynov\projetdelta\ArticleMs\controller\RestArticleController.class
+ynov\projetdelta\ArticleMs\model\Com.class
+ynov\projetdelta\ArticleMs\dto\ArticleTransformer.class
+ynov\projetdelta\ArticleMs\ArticleMsApplication.class
+ynov\projetdelta\ArticleMs\repositories\ArticleRepository.class
+ynov\projetdelta\ArticleMs\repositories\ComProxy.class
+ynov\projetdelta\ArticleMs\repositories\CateProxy.class
+ynov\projetdelta\ArticleMs\model\User.class
+ynov\projetdelta\ArticleMs\service\ArticleService.class

@@ -1,24 +1,34 @@
 package ynov.projetdelta.ArticleMs.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
-
+@Entity
+@Table(name = "article")
 public class Article {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="id")
 	private Integer id;
 	
+	@Column(name="iduser")
 	private int iduser;
 	
+	@Column(name="contenu")
 	private String contenu;
 	
+	@Column(name="date")
 	private int date;
 	
+	@Column(name="idcate")
 	private int idcate;
 	
+	@Column(name="idcom")
 	private int idcom;
 
 	public Integer getId() {
