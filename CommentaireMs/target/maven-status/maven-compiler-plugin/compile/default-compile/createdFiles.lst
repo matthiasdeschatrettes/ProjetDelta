@@ -1,0 +1,10 @@
+ynov\projetdelta\CommentaireMs\model\Commentaire.class
+ynov\projetdelta\CommentaireMs\repositories\UserProxy.class
+ynov\projetdelta\CommentaireMs\config\CustomProperties.class
+ynov\projetdelta\CommentaireMs\dto\CommentaireTransformer.class
+ynov\projetdelta\CommentaireMs\model\User.class
+ynov\projetdelta\CommentaireMs\CommentaireMsApplication.class
+ynov\projetdelta\CommentaireMs\controllers\RestCommentaireController.class
+ynov\projetdelta\CommentaireMs\service\CommentaireService.class
+ynov\projetdelta\CommentaireMs\dto\CommentR.class
+ynov\projetdelta\CommentaireMs\repositories\CommentaireRepository.class

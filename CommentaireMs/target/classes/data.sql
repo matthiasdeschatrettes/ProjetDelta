@@ -9,4 +9,5 @@ CREATE TABLE commentaire (
 
 INSERT INTO commentaire (text, date, iduser) VALUES
  ('j_adore_le_codage', 2019, 1),
- ('vive_les_examas', 2020, 2);
+ ('vive_les_exams', 2020, 2),
+ ('j_adore_les_sushis', 2019, 3);
