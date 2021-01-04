@@ -1,0 +1,8 @@
+ynov\projetdelta\CategorieMs\repositories\CategorieRepository.class
+ynov\projetdelta\CategorieMs\CategorieMsApplication.class
+ynov\projetdelta\CategorieMs\dto\CateR.class
+ynov\projetdelta\CategorieMs\model\Categorie.class
+ynov\projetdelta\CategorieMs\config\CustomProperties.class
+ynov\projetdelta\CategorieMs\dto\CategorieTransformer.class
+ynov\projetdelta\CategorieMs\controllers\RestCategorieController.class
+ynov\projetdelta\CategorieMs\service\CategorieService.class
