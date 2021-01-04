@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Create Form</title>
+</head>
+<body>
+
+	<form method="post" th:action="@{/saveUser}" th:object="${user}">
+		<label for="userNameInput">Username</label> 
+		<input type="text" th:field="*{username}" id="userNameInput" /> 
+		
+		<label for="passwordInput">Password</label> 
+		<input type="password" th:field="*{password}" id="passwordInput" />
+		
+		<label for="emailInput">email</label> 
+		<input type="email" th:field="*{email}" id="emailInput" /> 
+			
+		<input type="submit" value="Validate" />
+	</form>
+
+</body>
+</html>

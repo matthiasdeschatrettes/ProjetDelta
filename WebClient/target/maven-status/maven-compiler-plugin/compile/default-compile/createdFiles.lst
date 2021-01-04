@@ -1,0 +1,13 @@
+ynov\projetdelta\WebClient\repositories\ComProxy.class
+ynov\projetdelta\WebClient\model\Com.class
+ynov\projetdelta\WebClient\model\User.class
+ynov\projetdelta\WebClient\model\Article.class
+ynov\projetdelta\WebClient\WebClientApplication.class
+ynov\projetdelta\WebClient\repositories\ArticleProxy.class
+ynov\projetdelta\WebClient\repositories\UserProxy.class
+ynov\projetdelta\WebClient\repositories\CateProxy.class
+ynov\projetdelta\WebClient\repositories\GenericProxy.class
+ynov\projetdelta\WebClient\config\CustomProperties.class
+ynov\projetdelta\WebClient\controllers\WebClientController.class
+ynov\projetdelta\WebClient\model\Cate.class
+ynov\projetdelta\WebClient\repositories\UserProxy$1.class

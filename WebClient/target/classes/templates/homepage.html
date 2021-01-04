@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Home page</title>
+</head>
+<body>
+	PROJET DELTA !
+	<p>
+	<ul>
+		<li><span th:text="${com.id}"></span></li>
+		<li><span th:text="${com.date}"></span></li>
+		<li><span th:text="${com.text}"></span></li>
+		<li><span th:text="${com.user.username}"></span></li>
+	</ul>
+	<ul>
+		<li><span th:text="${cate.id}"></span></li>
+		<li><span th:text="${cate.nom}"></span></li>
+	</ul>
+	<ul>
+		<li><span th:text="${article.id}"></span></li>
+		<li><span th:text="${article.contenu}"></span></li>
+		<li><span th:text="${article.date}"></span></li>
+		<li><span th:text="${article.user.username}"></span></li>
+		<li><span th:text="${article.com.id}"></span></li>
+		<li><span th:text="${article.cate.nom}"></span></li>
+	</ul>
+	</p>
+	<table>
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Username</th>
+				<th>Password</th>
+				<th>Email</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="user: ${users}">
+				<td><span th:text="${user.id}"></span></td>
+				<td><span th:text="${user.username}"></span></td>
+				<td><span th:text="${user.password}"></span></td>
+				<td><span th:text="${user.email}"></span></td>
+				<td><a th:href="@{/updateUser/{id}(id=${user.id})}"> Update</a>
+				<br /> <a th:href="@{/deleteUser/{id}(id=${user.id})}"> Delete </a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<a th:href="@{/createUser}">Add a user</a>
+</body>
+</html>
