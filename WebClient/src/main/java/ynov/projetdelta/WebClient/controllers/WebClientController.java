@@ -51,7 +51,7 @@ public class WebClientController {
 		Article article =articleProxy.getArticle(idToGet);
 		model.addAttribute("article", article);
 		
-		return "homePage";
+		return "homepage";
 	}
 	
 	@GetMapping("/createUser")
