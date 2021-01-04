@@ -1,0 +1,4 @@
+ynov\projetdelta\UserApi\controller\RestUserController.class
+ynov\projetdelta\UserApi\model\User.class
+ynov\projetdelta\UserApi\repositories\UserRepository.class
+ynov\projetdelta\UserApi\UserApiApplication.class
