@@ -1,0 +1,48 @@
+version: '3'
+services:
+ ms-eureka:
+  build: ms-eureka/.
+  ports:
+   - '8100:8100'
+ ms-bootadmin:
+  build: ms-bootadmin/.
+  depends_on:
+   - ms-eureka
+  ports:
+   - '8102:8102'
+ ms-gateway:
+  build: ms-gateway/.
+  depends_on:
+   - ms-eureka
+  ports:
+   - '8101:8101'
+ ms-user:
+  build: ms-user/.
+  depends_on:
+   - ms-eureka
+  ports:
+   - '8110:8110'
+ ms-commentaire:
+  build: ms-commentaire/.
+  depends_on:
+   - ms-eureka
+  ports:
+   - '8112:8112'
+ ms-categorie:
+  build: ms-categorie/.
+  depends_on:
+   - ms-eureka
+  ports:
+   - '8111:8111'
+ ms-article:
+  build: ms-article/.
+  depends_on:
+   - ms-eureka
+  ports:
+   - '8113:8113'
+ ms-webclient:
+  build: ms-webclient/.
+  depends_on:
+   - ms-eureka
+  ports:
+   - '8200:8200'
